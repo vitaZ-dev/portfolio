@@ -9,9 +9,7 @@ const Layout: React.FC<WrapperProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main id="wrap">
-        <div>{children}</div>
-      </main>
+      <main id="wrap">{children}</main>
       <Footer />
     </>
   );

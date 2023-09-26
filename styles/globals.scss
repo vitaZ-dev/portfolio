@@ -1,61 +1,10 @@
 @charset "utf-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline-style: none;
-}
-ul {
-  list-style: none;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-img {
-  vertical-align: middle;
-  border: 0;
-}
-html {
-  font-size: 16px;
-  width: 100%;
-  height: 100%;
-}
-body {
-  width: 100%;
-  height: 100%;
-  // font-family: "Theinhardt", "Noto Sans KR", sans-serif;
-  color: #181818;
-  font-size: 16px;
-  // line-height: 1.5;
-  // letter-spacing: -0.64px;
-  // word-break: keep-all;
-}
-button {
-  border: none;
-  cursor: pointer;
-}
 
-header {
-  width: 100%;
-  height: 80px;
-  background-color: darkseagreen;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-#wrap {
-  height: auto;
-  min-height: 100%;
-  padding: 80px 10px;
-}
-section {
-  width: 100%;
-  height: calc(100vh - 160px);
-}
-footer {
-  height: 80px;
-  background-color: aquamarine;
-  position: relative;
-  transform: translateY(-100%);
-}
+@import './base/base';
+
+@import './layout/header';
+@import './layout/intro';
+@import './layout/about';
+@import './layout/projects';
+@import './layout/stack';
+@import './layout/footer';

@@ -1,0 +1,35 @@
+section {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  height: calc(100vh - 80px);
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+
+  .section-title {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    text-align: center;
+    &::after {
+      content: '';
+      // display: block;
+      // padding: 5px;
+      // border-bottom: 5px solid #000;
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3px;
+      width: 100px;
+      background-color: red;
+    }
+  }
+
+  .section-contents {
+    display: flex;
+    gap: 20px;
+  }
+}

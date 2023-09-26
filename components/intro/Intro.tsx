@@ -1,10 +1,9 @@
 import React from 'react';
-import IntroAnimation from './IntroAnimation';
 
 const Intro = () => {
   return (
-    <section id="intro" style={{ display: 'flex' }}>
-      <div style={{ display: 'flex', flexDirection: 'column', width: '50%' }}>
+    <section id="intro">
+      <div>
         <h1>
           항상 최선을 다하는 <br />
           프론트엔드 개발자 황지현입니다
@@ -17,7 +16,6 @@ const Intro = () => {
           그들에게 많이 행복스럽고 가지에 무엇을 것이다.
         </p>
       </div>
-      <IntroAnimation />
     </section>
   );
 };

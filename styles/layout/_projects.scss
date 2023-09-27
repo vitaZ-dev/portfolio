@@ -1,0 +1,22 @@
+#projects {
+  .int {
+    background-color: fuchsia;
+  }
+  // temp
+  .section-contents {
+    .project-item {
+      width: 75%;
+      min-width: 400px;
+      margin: 2rem auto;
+      border-radius: 16px;
+      background-color: aliceblue;
+      box-shadow: rgba(149, 160, 165, 0.2) 8px 8px 24px;
+      .thumbnail {
+        // 1110px ~ flex-deriection
+        width: 50%;
+        height: 400px;
+        background-color: springgreen;
+      }
+    }
+  }
+}

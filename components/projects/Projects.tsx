@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
+import SwiperTest from './Swipertest';
 
 const Projects = () => {
   return (
@@ -12,7 +13,8 @@ const Projects = () => {
           <li>포트폴리오 제작</li>
           <li>퍼블리싱 - swiper</li>
         </ul>
-        <ProjectItem />
+        {/* <ProjectItem /> */}
+        <SwiperTest />
       </div>
     </section>
   );

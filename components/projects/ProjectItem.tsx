@@ -5,11 +5,13 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 const ProjectItem = () => {
   return (
     <div className="project-item">
-      웹 포트폴리오 solo project <br />
-      작업기간 2022.05.12 ~ 2022.05.14 (solo/협업)
-      <div style={{ display: 'flex', padding: '2.5rem' }}>
-        <div className="thumbnail"></div>
-        <div>
+      <div className="item-title">
+        웹 포트폴리오 solo project <br />
+        작업기간 2022.05.12 ~ 2022.05.14 (solo/협업)
+      </div>
+      <div className="item-box">
+        <div className="item-thumbnail"></div>
+        <div className="item-detail">
           <FontAwesomeIcon icon={faCheck} /> 소개글 <br />
           <FontAwesomeIcon icon={faCheck} /> 주요기능? 2(FE) <br />
           <FontAwesomeIcon icon={faCheck} /> 작업인원 2(FE) <br />

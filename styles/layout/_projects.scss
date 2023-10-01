@@ -7,16 +7,48 @@
     .project-item {
       width: 75%;
       min-width: 400px;
-      margin: 2rem auto;
+      margin: 4rem auto;
+      padding: 2.5rem;
       border-radius: 16px;
       background-color: aliceblue;
       box-shadow: rgba(149, 160, 165, 0.2) 8px 8px 24px;
-      .thumbnail {
-        // 1110px ~ flex-deriection
-        width: 50%;
-        height: 400px;
-        background-color: springgreen;
+      .item-title {
+        margin-bottom: 1rem;
+      }
+      .item-box {
+        display: flex;
+        gap: 20px;
+        .item-thumbnail {
+          // 1110px ~ flex-deriection
+          width: 50%;
+          height: 400px;
+          background-color: springgreen;
+        }
       }
     }
   }
+}
+
+@media (max-width: 1024px){
+  #projects {
+    .section-contents {
+      .project-item {
+        .item-box {
+          flex-direction: column;
+          .item-thumbnail {
+            width: 100%;
+            height: 300px;
+            background-color: yellow;
+          }
+        }
+      }
+    }
+  }
+}
+
+.item-swiper {
+  width: 100%;
+  height: 500px;
+  margin: 4rem 0;
+  background-color: pink;
 }

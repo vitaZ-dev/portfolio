@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Stack = () => {
-  return <div>Tech Stack</div>;
+  return <section>Tech Stack</section>;
 };
 
 export default Stack;

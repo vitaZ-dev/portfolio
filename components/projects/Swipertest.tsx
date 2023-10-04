@@ -10,7 +10,9 @@ const SwiperTest = () => {
   return (
     <>
       <>
-        <div className="swiper-prev-btn">이전버튼</div>
+        <div className="swiper-btn-wrap">
+          <div className="swiper-prev-btn"></div>
+        </div>
         <Swiper
           id="item-swiper"
           navigation={{
@@ -53,7 +55,7 @@ const SwiperTest = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div>NextJS 포트폴리오</div>
+            <div>포트폴리오 웹사이트</div>
             <div>0000.00.00~0000.00.00 (1인)</div>
             <hr />
             <div style={{ display: 'flex' }}>
@@ -63,14 +65,22 @@ const SwiperTest = () => {
               ></div>
               <div>
                 <ul>
-                  <li>간단소개</li>
+                  <li>
+                    NextJS를 활용한 포트폴리오 웹사이트 제작
+                    <hr />
+                  </li>
+                  <li>
+                    주요기능
+                    <br />
+                    간단한 자기소개, 인적 사항, 기술 스택, GitHub 및 티스토리 링크, 프로젝트 경험, 업무 경력
+                  </li>
                   <li>
                     <FontAwesomeIcon icon={faLink} />
-                    배포
+                    URL
                   </li>
-                  <li>소스(깃허브)</li>
-                  <li>사용기술</li>
-                  <li>담당파트(2인이상)</li>
+                  <li>GitHub</li>
+                  <li>사용기술 : NextJS TypeScript scss + fontawsome swiper</li>
+                  <li>담당파트(2인이상일때만)</li>
                 </ul>
               </div>
             </div>
@@ -83,7 +93,9 @@ const SwiperTest = () => {
           <SwiperSlide>Slide 8</SwiperSlide>
           <SwiperSlide>Slide 9</SwiperSlide>
         </Swiper>
-        <div className="swiper-next-btn">다음버튼</div>
+        <div className="swiper-btn-wrap">
+          <div className="swiper-next-btn"></div>
+        </div>
       </>
     </>
   );
